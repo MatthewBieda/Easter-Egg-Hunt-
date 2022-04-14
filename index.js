@@ -8,7 +8,7 @@ function IncrementScore(id) {
 
     if (id.includes("egg") && clickstate=="False") {
         scoreasint += 1;
-        if (scoreasint == 5) {
+        if (scoreasint == 8) {
             alert("You Win!!")
         }
         clickedpicture.setAttribute("data-clicked", "True")
