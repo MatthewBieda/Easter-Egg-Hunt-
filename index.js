@@ -3,13 +3,12 @@ function IncrementScore(id) {
     
     var clickedpicture = document.getElementById(id)
     let clickstate = clickedpicture.getAttribute("data-clicked");
-    console.log(clickstate)
 
     scoreasint = parseInt(userscore)
 
     if (id.includes("egg") && clickstate=="False") {
         scoreasint += 1;
-        if (scoreasint == 10) {
+        if (scoreasint == 5) {
             alert("You Win!!")
         }
         clickedpicture.setAttribute("data-clicked", "True")
@@ -22,7 +21,6 @@ function IncrementScore(id) {
     
     eggnumber = id
     egg = document.getElementById(eggnumber)
-    egg.style.opacity = 1;
-
-    
+    egg.style.opacity = 1;    
 }
+

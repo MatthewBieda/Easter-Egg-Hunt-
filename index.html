@@ -1,40 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Easter Egg Hunt</title>
     <link rel="stylesheet" href="style.css">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Easter Games</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Egg Hunt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quiz.html">Quiz</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </head>
   <body>
       <h1>Easter Egg Hunt</h1>
       <p>Find eggs to increase your score! But watch out for the carrots. Get a score of 10 to win :)</p>
       <p>Current Score:</p> <p id="Score">0</p>
-    <img src="EasterEgg.jpg" onclick=IncrementScore(id) alt="" id="egg1" data-clicked="False">
-    <img src="EasterEgg.jpg" onclick=IncrementScore(id) alt="" id="egg2" data-clicked="False">
+      <div class="container">
+    <img src="Egg.png" onclick=IncrementScore(id) alt="" id="egg1" data-clicked="False">
+    <img src="Egg.png" onclick=IncrementScore(id) alt="" id="egg2" data-clicked="False">
     <img src="Carrot.png" onclick=IncrementScore(id) alt="" id="carrot1" data-clicked="False">
     <img src="Carrot.png" onclick=IncrementScore(id) alt="" id="carrot2" data-clicked="False">
     <img src="Carrot.png" onclick=IncrementScore(id) alt="" id="carrot3" data-clicked="False">
-    <img src="EasterEgg.jpg" onclick=IncrementScore(id) alt="" id="egg3" data-clicked="False">
-    <img src="EasterEgg.jpg" onclick=IncrementScore(id) alt="" id="egg4" data-clicked="False">
+    <img src="Egg.png" onclick=IncrementScore(id) alt="" id="egg3" data-clicked="False">
+    <img src="Egg.png" onclick=IncrementScore(id) alt="" id="egg4" data-clicked="False">
     <img src="Carrot.png" onclick=IncrementScore(id) alt="" id="carrot4" data-clicked="False">
-    <img src="EasterEgg.jpg" onclick=IncrementScore(id) alt="" id="egg5" data-clicked="False">
+    <img src="Egg.png" onclick=IncrementScore(id) alt="" id="egg5" data-clicked="False">
     <img src="Carrot.png" onclick=IncrementScore(id) alt="" id="carrot5" data-clicked="False">
     <img src="Carrot.png" onclick=IncrementScore(id) alt="" id="carrot6" data-clicked="False">
-    <img src="EasterEgg.jpg" onclick=IncrementScore(id) alt="" id="egg6" data-clicked="False">
-    <img src="EasterEgg.jpg" onclick=IncrementScore(id) alt="" id="egg7" data-clicked="False">
-    <img src="EasterEgg.jpg" onclick=IncrementScore(id) alt="" id="egg8" data-clicked="False">
+    <img src="Egg.png" onclick=IncrementScore(id) alt="" id="egg6" data-clicked="False">
+    <img src="Egg.png" onclick=IncrementScore(id) alt="" id="egg7" data-clicked="False">
+    <img src="Egg.png" onclick=IncrementScore(id) alt="" id="egg8" data-clicked="False">
     <img src="Carrot.png" onclick=IncrementScore(id) alt="" id="carrot7" data-clicked="False">
     <img src="Carrot.png" onclick=IncrementScore(id) alt="" id="carrot8" data-clicked="False">
-    <img src="EasterEgg.jpg" onclick=IncrementScore(id) alt="" id="egg9" data-clicked="False">
+    <img src="Egg.png" onclick=IncrementScore(id) alt="" id="egg9" data-clicked="False">
     <img src="Carrot.png" onclick=IncrementScore(id) alt="" id="carrot9" data-clicked="False">
-    <img src="EasterEgg.jpg" onclick=IncrementScore(id) alt="" id="egg10" data-clicked="False">
+    <img src="Egg.png" onclick=IncrementScore(id) alt="" id="egg10" data-clicked="False">
     <img src="Carrot.png" onclick=IncrementScore(id) alt="" id="carrot10" data-clicked="False">
-    <img src="EasterEgg.jpg" onclick=IncrementScore(id) alt="" id="egg11" data-clicked="False">
-    <img src="EasterEgg.jpg" onclick=IncrementScore(id) alt="" id="egg12" data-clicked="False">
+    <img src="Egg.png" onclick=IncrementScore(id) alt="" id="egg11" data-clicked="False">
+    <img src="Egg.png" onclick=IncrementScore(id) alt="" id="egg12" data-clicked="False">
     <img src="Carrot.png" onclick=IncrementScore(id) alt="" id="carrot11" data-clicked="False">
     <img src="Carrot.png" onclick=IncrementScore(id) alt="" id="carrot12" data-clicked="False">
+      </div>
 	<script src="index.js"></script>
   </body>
 </html>

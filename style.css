@@ -8,3 +8,11 @@ img {
 #Score {
     color: red;
 }
+
+body {
+    background-image: url("snow.png");
+}
+
+.images {
+    position: absolute;
+  }
